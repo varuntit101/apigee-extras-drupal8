@@ -1,0 +1,8 @@
+apigee_appdashboard.sync_apps:
+  path: '/admin/config/apigee_extras/appdashboard'
+  defaults:
+    _form: '\Drupal\apigee_appdashboard\Form\SyncAppForm'
+    _title: 'Sync Apps'
+  requirements:
+    _permission: 'access content'
+

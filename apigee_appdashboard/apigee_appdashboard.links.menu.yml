@@ -1,0 +1,33 @@
+
+# App menu items definition
+entity.app_entity.collection:
+  title: 'App list'
+  route_name: entity.app_entity.collection
+  description: 'List App entities'
+  parent: system.admin_structure
+  weight: 100
+
+app_entity.admin.structure.settings:
+  title: 'App settings'
+  description: 'Configure App entities'
+  route_name: app_entity.settings
+  parent: system.admin_structure
+
+# Product menu items definition
+entity.product_entity.collection:
+  title: 'Product list'
+  route_name: entity.product_entity.collection
+  description: 'List Product entities'
+  parent: system.admin_structure
+  weight: 100
+
+product_entity.admin.structure.settings:
+  title: 'Product settings'
+  description: 'Configure Product entities'
+  route_name: product_entity.settings
+  parent: system.admin_structure
+
+system.sync_edge:
+  title: 'Sync App Dashboard From Edge'
+  parent: system.admin_config
+  route_name: apigee_appdashboard.sync_apps

@@ -1,0 +1,10 @@
+entity.app_entity.add_form:
+  route_name: entity.app_entity.add_form
+  title: 'Add App'
+  appears_on:
+    - entity.app_entity.collection
+entity.product_entity.add_form:
+  route_name: entity.product_entity.add_form
+  title: 'Add Product'
+  appears_on:
+    - entity.product_entity.collection

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.product_entity.field_delta
+  module:
+    - apigee_appdashboard
+id: product_entity.product_entity.field_delta
+field_name: field_delta
+entity_type: product_entity
+bundle: product_entity
+label: Delta
+description: 'The delta for multiple credentials'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

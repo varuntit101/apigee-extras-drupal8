@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.app_entity.field_created_at
+  module:
+    - apigee_appdashboard
+id: app_entity.app_entity.field_created_at
+field_name: field_created_at
+entity_type: app_entity
+bundle: app_entity
+label: 'Created at'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1550678109
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

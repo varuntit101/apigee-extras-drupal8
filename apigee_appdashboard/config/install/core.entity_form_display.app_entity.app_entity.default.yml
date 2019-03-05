@@ -1,0 +1,99 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.app_entity.app_entity.field_app_display_name
+    - field.field.app_entity.app_entity.field_app_id
+    - field.field.app_entity.app_entity.field_company
+    - field.field.app_entity.app_entity.field_created_at
+    - field.field.app_entity.app_entity.field_email
+    - field.field.app_entity.app_entity.field_modified_at
+    - field.field.app_entity.app_entity.field_organization_name
+    - field.field.app_entity.app_entity.field_overall_status
+  module:
+    - apigee_appdashboard
+_core:
+  default_config_hash: d8S8vEjT_mMW5uXJgRkafkyORjks_BLkmFbA2Y0iBh8
+id: app_entity.app_entity.default
+targetEntityType: app_entity
+bundle: app_entity
+mode: default
+content:
+  field_app_display_name:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_app_id:
+    weight: 33
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_company:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_created_at:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_timestamp
+    region: content
+  field_email:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_modified_at:
+    weight: 29
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_timestamp
+    region: content
+  field_organization_name:
+    weight: 30
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_overall_status:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

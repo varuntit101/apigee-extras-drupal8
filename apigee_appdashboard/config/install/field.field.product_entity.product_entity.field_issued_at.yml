@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.product_entity.field_issued_at
+  module:
+    - apigee_appdashboard
+id: product_entity.product_entity.field_issued_at
+field_name: field_issued_at
+entity_type: product_entity
+bundle: product_entity
+label: 'Issued at'
+description: 'Unix timestamp of credential issue date'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1550679799
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

@@ -1,0 +1,10 @@
+services:
+  apigee_appdashboard.auth:
+    class: Drupal\apigee_appdashboard\AuthenticationKeyService
+    arguments: ['@config.factory']
+
+  apigee_appdashboard.app:
+    class: Drupal\apigee_appdashboard\App
+
+  apigee_appdashboard.developer:
+    class: Drupal\apigee_appdashboard\Developer

@@ -1,0 +1,54 @@
+# App routing definition
+app_entity.settings_tab:
+  route_name: app_entity.settings
+  title: 'Settings'
+  base_route: app_entity.settings
+
+entity.app_entity.canonical:
+  route_name: entity.app_entity.canonical
+  base_route: entity.app_entity.canonical
+  title: 'View'
+
+entity.app_entity.edit_form:
+  route_name: entity.app_entity.edit_form
+  base_route: entity.app_entity.canonical
+  title: 'Edit'
+
+entity.app_entity.version_history:
+  route_name: entity.app_entity.version_history
+  base_route: entity.app_entity.canonical
+  title: 'Revisions'
+
+entity.app_entity.delete_form:
+  route_name:  entity.app_entity.delete_form
+  base_route:  entity.app_entity.canonical
+  title: Delete
+  weight: 10
+
+# Product routing definition
+product_entity.settings_tab:
+  route_name: product_entity.settings
+  title: 'Settings'
+  base_route: product_entity.settings
+
+entity.product_entity.canonical:
+  route_name: entity.product_entity.canonical
+  base_route: entity.product_entity.canonical
+  title: 'View'
+
+entity.product_entity.edit_form:
+  route_name: entity.product_entity.edit_form
+  base_route: entity.product_entity.canonical
+  title: 'Edit'
+
+entity.product_entity.version_history:
+  route_name: entity.product_entity.version_history
+  base_route: entity.product_entity.canonical
+  title: 'Revisions'
+
+entity.product_entity.delete_form:
+  route_name:  entity.product_entity.delete_form
+  base_route:  entity.product_entity.canonical
+  title: Delete
+  weight: 10
+

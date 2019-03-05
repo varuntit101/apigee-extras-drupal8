@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - apigee_appdashboard
+id: app_entity.field_app_id
+field_name: field_app_id
+entity_type: app_entity
+type: string
+settings:
+  max_length: 36
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

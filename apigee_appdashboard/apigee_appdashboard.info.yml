@@ -1,0 +1,8 @@
+name: 'Apigee appdashboard'
+type: module
+description: 'Dashboard to manage developer apps in the portal.'
+core: 8.x
+package: 'Apigee'
+
+dependencies:
+  - apigee_edge

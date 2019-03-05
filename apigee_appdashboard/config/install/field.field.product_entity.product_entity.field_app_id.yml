@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.product_entity.field_app_id
+  module:
+    - apigee_appdashboard
+id: product_entity.product_entity.field_app_id
+field_name: field_app_id
+entity_type: product_entity
+bundle: product_entity
+label: 'App ID'
+description: 'Unique App ID'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

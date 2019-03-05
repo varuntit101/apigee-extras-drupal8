@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.product_entity.field_expires_at
+  module:
+    - apigee_appdashboard
+id: product_entity.product_entity.field_expires_at
+field_name: field_expires_at
+entity_type: product_entity
+bundle: product_entity
+label: 'Expires at'
+description: 'Unix timestamp of credential expiry date'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1550679824
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

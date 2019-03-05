@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.app_entity.field_app_display_name
+  module:
+    - apigee_appdashboard
+id: app_entity.app_entity.field_app_display_name
+field_name: field_app_display_name
+entity_type: app_entity
+bundle: app_entity
+label: 'App display name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
